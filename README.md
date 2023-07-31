@@ -18,6 +18,8 @@ This repo documents my understandings of APIs. Here is the structure of my notes
       9. [Internal/Private APIs](#14)
       10. [Third-party API](#15)
 2. [RESTful APIs](#16)
+   1.[Intro to JSON](#17)
+   
 
 <a name="1"></a>
 ## Introduction
@@ -108,7 +110,8 @@ Each type of API serves a specific purpose and plays a crucial role in modern so
 
 Simply put, a client computer asks another computer for data, or to take an action to modify, delete, or create data.
 
-
+<a name="17"></a>
+### Intro to JSON
 
 
 
