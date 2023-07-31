@@ -4,9 +4,9 @@ This repo documents my understandings of APIs. Here is the structure of my notes
 
 1. [Introduction](#1)
    1. [Types of APIs](#2)
-   1. [Web APIs (HTTP-based APIs)](#3)
-      1. [RESTful APIs (Representational State Transfer)](#4)
-      2. [SOAP APIs (Simple Object Access Protocol)](#5)
+      1. [Web APIs (HTTP-based APIs)](#3)
+         1. [RESTful APIs (Representational State Transfer)](#4)
+         2. [SOAP APIs (Simple Object Access Protocol)](#5)
 
 
 <a name="1"></a>
