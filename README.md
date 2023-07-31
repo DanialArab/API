@@ -3,9 +3,10 @@
 This repo documents my understandings of APIs. Here is the structure of my notes. 
 
 1. [Introduction](#1)
-   1. [Web APIs (HTTP-based APIs)](#2)
-      1. [RESTful APIs (Representational State Transfer)](#3)
-      2. [SOAP APIs (Simple Object Access Protocol)](#4)
+   1. [Types of APIs](#2)
+   1. [Web APIs (HTTP-based APIs)](#3)
+      1. [RESTful APIs (Representational State Transfer)](#4)
+      2. [SOAP APIs (Simple Object Access Protocol)](#5)
 
 
 <a name="1"></a>
@@ -14,14 +15,17 @@ This repo documents my understandings of APIs. Here is the structure of my notes
 APIs (Application Programming Interfaces) can be categorized into several types based on their **functionality, usage, and the way they are implemented**. Here are some common types of APIs:
 
 <a name="2"></a>
-### Web APIs (HTTP-based APIs):
+### Types of APIs 
 
 <a name="3"></a>
+### Web APIs (HTTP-based APIs):
+
+<a name="4"></a>
 #### RESTful APIs (Representational State Transfer)
 
 These are the most common type of web APIs, which adhere to a set of architectural constraints and principles. They use standard HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources.
 
-<a name="4"></a>
+<a name="5"></a>
 #### SOAP APIs (Simple Object Access Protocol)
 
 These APIs use XML-based messages and typically run over HTTP, SMTP, TCP, or other transport protocols. They have more rigid specifications and use XML schemas for data exchange.
