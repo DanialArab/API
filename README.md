@@ -18,7 +18,7 @@ This repo documents my understandings of APIs. Here is the structure of my notes
       9. [Internal/Private APIs](#14)
       10. [Third-party API](#15)
 2. [RESTful APIs](#16)
-     1.[Intro to JSON](#17)
+   1. [Intro to JSON](#17)
    
 
 <a name="1"></a>
