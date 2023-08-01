@@ -1,6 +1,6 @@
 # APIs
 
-This repo documents my understandings of APIs. Here is the structure of my notes.  
+This repo documents my understanding of APIs. Here is the structure of my notes.  
 
 1. [Introduction](#1)
    1. [Web scraping vs. API calls](#2)
@@ -120,13 +120,23 @@ When we make a standard RESTful API request to a service, it gives us a response
 <a name="18"></a>
 ### Request Methods
 
-
-
 <a name="19"></a>
 #### HTTP GET
 
++ When we load a website. That’s a GET request
++ It’s a request to get data from another computer
++ We’re simply asking for data and we’re not asking to perform a task
++ We’re not creating, updating, or deleting data
++ It is the most common request type
++ Its CRUD (Create, Read, Update, Delete) operation is Read
+
 <a name="20"></a>
 #### HTTP POST
+
++ They do not go through the standard URL, but use a URL as the endpoint
++ Ask another computer to create a new resource
++ Returns data about the newly created resource
++ Its CRUD operation is Craete
 
 <a name="21"></a>
 #### HTTP PUT
