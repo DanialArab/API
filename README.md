@@ -26,6 +26,7 @@ This repo documents my understanding of APIs. Here is the structure of my notes.
       4. [HTTP PUT](#22)
       5. [HTTP PATCH](#23)
    3. [Consuming APIs (how to use them)](#24)
+   4. [Requests and Responses](#25)
 
 <a name="1"></a>
 ## Introduction
@@ -180,4 +181,19 @@ When we make a standard RESTful API request to a service, it gives us a response
 
 <a name="24"></a>
 ### Consuming APIs (how to use them) 
-HERE
+
++ APIs can be written in almost any server-side (back-end) language as long as that language accepts HTTP protocol requests such as GET, POST, DELETE, PUT
++ When a client (such as a web browser) makes an API request to a website or a web application, the server-side code processes the request, interacts with databases, performs calculations, and generates the appropriate content to be sent back to the client. APIs will generally return  one of two types data structures: **JSON** or **XML**
++ XML gives the exact same stuff back as JSON but it just looks different. JSON is a bit more lightweight, flexible, and robust. A nice thing about XML though is that it comes with a contract, which generally means that the type of the data (corresponding to the values in JSON key-value pairs) should always be specified like to be an integer/string/etc.
++ APIs can be consumed in almost any language: Browsers use JavaScript for their API requests, while Servers use any language that runs on that computer.
+
+<a name="25"></a>
+### Requests and Responses 
+
++ When we request data from a server using GET, POST, PUT, PATCH or DELETE… that’s a request. 
++ When the server returns our data… that’s a response
++ Responses will always come with an **HTTP Status Code**. And these “status codes” tell us what’s **wrong (or right) without needing to give us text back to read.**
+
+<a name="26"></a>
+#### Common HTTP Status Code
+
