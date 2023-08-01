@@ -207,6 +207,9 @@ When we make a standard RESTful API request to a service, it gives us a response
 <a name="26"></a>
 #### Common HTTP Status Code
 
+<a href="https://www.webfx.com/web-development/glossary/http-status-codes/">HTTP Status Code Glossary</a>
+
+
 <a name="27"></a>
 ##### Healthy Responses (2--)
 + 200 — OK. Request accepted.
