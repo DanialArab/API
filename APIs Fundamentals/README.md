@@ -1,6 +1,6 @@
 # APIs
 
-This repo documents my understanding of APIs. Here is the structure of my notes.  
+Here is the structure of my notes on APIs fundamentals:  
 
 1. [Introduction](#1)
    1. [Web scraping vs. API calls](#2)
