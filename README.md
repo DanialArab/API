@@ -19,6 +19,8 @@ This repo documents my understandings of APIs. Here is the structure of my notes
       10. [Third-party API](#15)
 2. [RESTful APIs](#16)
    1. [Intro to JSON](#17)
+   2. [Request Methods](#18)
+      1. [
    
 
 <a name="1"></a>
@@ -113,5 +115,26 @@ Simply put, a client computer asks another computer for data, or to take an acti
 <a name="17"></a>
 ### Intro to JSON
 
+When we make a standard RESTful API request to a service, it gives us a response back in the form of JSON, which is a structured key-value pair.
+
+<a name="18"></a>
+### Request Methods
+
+
+
+<a name="19"></a>
+#### HTTP GET
+
+<a name="20"></a>
+#### HTTP POST
+
+<a name="21"></a>
+#### HTTP PUT
+
+<a name="22"></a>
+#### HTTP DELETE
+
+<a name="23"></a>
+#### HTTP PATCH	
 
 
