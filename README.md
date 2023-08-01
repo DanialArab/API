@@ -144,7 +144,7 @@ When we make a standard RESTful API request to a service, it gives us a response
 + They do not go through the standard URL, but use a URL as the endpoint
 + Ask another computer to create a new resource
 + Returns data about the newly created resource
-+ Its CRUD operation is Craete
++ Its CRUD operation is Create
 + An example would be when a new user tries to sign up in Facebook 
 + Example URL(s): http://website.com/api/users/
 
