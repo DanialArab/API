@@ -33,6 +33,7 @@ This repo documents my understanding of APIs. Here is the structure of my notes.
       3. [Client Responses (4--)](#29)
       4. [Server Responses (5--)](#30)
     6. [API Security](#31)
+       1. [ API Keys](#32)
 
 
 
@@ -235,4 +236,11 @@ When we make a standard RESTful API request to a service, it gives us a response
 
 <a name="31"></a>
 #### API Security
+
+<a name="32"></a>
+##### API Keys
+
++ API keys are “passwords” to access an API. These are your authentication credentials.
++ Almost every website requires API keys to perform some action.
++ Facebook's Graph API is a good example: graph.facebook.com/codingforeverybody
 
