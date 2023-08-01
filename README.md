@@ -25,7 +25,7 @@ This repo documents my understanding of APIs. Here is the structure of my notes.
       3. [HTTP DELETE](#21)
       4. [HTTP PUT](#22)
       5. [HTTP PATCH](#23)
-   
+   3. [Consuming APIs (how to use them)(#24)
 
 <a name="1"></a>
 ## Introduction
@@ -178,3 +178,5 @@ When we make a standard RESTful API request to a service, it gives us a response
 + Its CRUD operation is a partial Update/Modify
 + Example URL(s): http://website.com/api/user/1/firstname/
 
+<a name="24"></a>
+### Consuming APIs (how to use them) 
