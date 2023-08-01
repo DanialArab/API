@@ -122,7 +122,6 @@ When we make a standard RESTful API request to a service, it gives us a response
 
 <a href="https://restfulapi.net/http-methods/">http request methodsI</a>
 
-
 <a name="19"></a>
 #### HTTP GET
 
@@ -132,6 +131,8 @@ When we make a standard RESTful API request to a service, it gives us a response
 + We’re not creating, updating, or deleting data
 + It is the most common request type
 + Its CRUD (Create, Read, Update, Delete) operation is Read
++ Example URL(s): http://website.com/api/users/ OR http://website.com/api/user/1/
+
 
 <a name="20"></a>
 #### HTTP POST
@@ -141,6 +142,7 @@ When we make a standard RESTful API request to a service, it gives us a response
 + Returns data about the newly created resource
 + Its CRUD operation is Craete
 + An example would be when a new user tries to sign up in Facebook 
++ Example URL(s): http://website.com/api/users/
 
 <a name="21"></a>
 #### HTTP DELETE
@@ -150,11 +152,25 @@ When we make a standard RESTful API request to a service, it gives us a response
 + Use it with caution
 + Its CRUD operation is Delete 
 + An example would be when you would like to delete your credit card info from your Amazon account or delete an image from your Facebook profile
-  
++ Example URL(s): http://website.com/api/user/1/
+
 <a name="22"></a>
 #### HTTP PUT
+
++ They do not go through the standard URL, but use a URL as the endpoint
++ Ask another computer to update an **entire resource**
++ If the resource doesn’t exist, some of the APIs might decide to CREATE (CRUD) the resource
++ Its CRUD operation is Update/Replace 
++ Example URL(s): http://website.com/api/user/1/
 
 <a name="23"></a>
 #### HTTP PATCH	
 
++ They do not go through the standard URL, but use a URL as the endpoint
++ Ask another computer to update a **piece of a resource**
++ They are not fully supported by all browsers or frameworks (like Django), so we typically fall back on PUT requests
++ Since PATCH is not supported in a lot of different areas, we rely on PUT instead 
++ Example: Updating a users first name
++ Its CRUD operation is a partial Update/Modify
++ Example URL(s): http://website.com/api/user/1/firstname/
 
