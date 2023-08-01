@@ -120,6 +120,9 @@ When we make a standard RESTful API request to a service, it gives us a response
 <a name="18"></a>
 ### Request Methods
 
+<a href="https://restfulapi.net/http-methods/">http request methodsI</a>
+
+
 <a name="19"></a>
 #### HTTP GET
 
@@ -137,12 +140,19 @@ When we make a standard RESTful API request to a service, it gives us a response
 + Ask another computer to create a new resource
 + Returns data about the newly created resource
 + Its CRUD operation is Craete
++ An example would be when a new user tries to sign up in Facebook 
 
 <a name="21"></a>
-#### HTTP PUT
-
-<a name="22"></a>
 #### HTTP DELETE
+
++ Do not go through the standard URL, but use a URL as the endpoint
++ Ask another computer to delete a single resource or a list of resources
++ Use it with caution
++ Its CRUD operation is Delete 
++ An example would be when you would like to delete your credit card info from your Amazon account or delete an image from your Facebook profile
+  
+<a name="22"></a>
+#### HTTP PUT
 
 <a name="23"></a>
 #### HTTP PATCH	
