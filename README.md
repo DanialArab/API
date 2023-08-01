@@ -25,7 +25,7 @@ This repo documents my understanding of APIs. Here is the structure of my notes.
       3. [HTTP DELETE](#21)
       4. [HTTP PUT](#22)
       5. [HTTP PATCH](#23)
-   3. [Consuming APIs (how to use them)(#24)
+   3. [Consuming APIs (how to use them)](#24)
 
 <a name="1"></a>
 ## Introduction
