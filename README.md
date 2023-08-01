@@ -45,7 +45,7 @@ In summary, web scraping and API calls are two different methods for retrieving 
 APIs (Application Programming Interfaces) can be categorized into several types based on their **functionality, usage, and the way they are implemented**. But **RESTful APIs** are most commonly talked about these days. It doesn’t matter what programming language we’re using. JavaScript, Python, PHP, Java, C and every other modern language supports RESTful APIs. Here are some common types of APIs:
 
 <a name="4"></a>
-### Web APIs (HTTP-based APIs):
+### Web APIs (HTTP-based APIs)
 
 <a name="5"></a>
 #### RESTful APIs (Representational State Transfer)
@@ -58,12 +58,12 @@ These are the most common type of web APIs, which adhere to a set of architectur
 These APIs use XML-based messages and typically run over HTTP, SMTP, TCP, or other transport protocols. They have more rigid specifications and use XML schemas for data exchange.
 
 <a name="7"></a>
-### Library APIs (SDKs):
+### Library APIs (SDKs)
 
 Library APIs provide a set of functions or classes within a programming language that developers can use to access the features of a particular library or software development kit (SDK).
 
 <a name="8"></a>
-### Operating System APIs:
+### Operating System APIs
 
 Operating System APIs expose functionalities provided by the operating system to developers. For example, the Windows API or POSIX API allow developers to interact with the underlying OS services like file management, networking, and process management.
 
