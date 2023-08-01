@@ -205,9 +205,9 @@ When we make a standard RESTful API request to a service, it gives us a response
 + Responses will always come with an **HTTP Status Code**. And these “status codes” tell us what’s **wrong (or right) without needing to give us text back to read.**
 
 <a name="26"></a>
-#### Common HTTP Status Code
+#### Common HTTP Status Codes
 
-<a href="https://www.webfx.com/web-development/glossary/http-status-codes/">HTTP Status Code Glossary</a>
+<a href="https://www.webfx.com/web-development/glossary/http-status-codes/">HTTP Status Codes Glossary</a>
 
 
 <a name="27"></a>
