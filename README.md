@@ -20,7 +20,11 @@ This repo documents my understanding of APIs. Here is the structure of my notes.
 2. [RESTful APIs](#16)
    1. [Intro to JSON](#17)
    2. [Request Methods](#18)
-      1. [
+      1. [HTTP GET](#19)
+      2. [HTTP POST](#20)
+      3. [HTTP DELETE](#21)
+      4. [HTTP PUT](#22)
+      5. [HTTP PATCH](#23)
    
 
 <a name="1"></a>
