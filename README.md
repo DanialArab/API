@@ -27,6 +27,15 @@ This repo documents my understanding of APIs. Here is the structure of my notes.
       5. [HTTP PATCH](#23)
    3. [Consuming APIs (how to use them)](#24)
    4. [Requests and Responses](#25)
+   5. [Common HTTP Status Code](#26)
+      1. [Healthy Responses (2--)](#27)
+      2. [Redirect Responses (3--)](#28)
+      3. [Client Responses (4--)](#29)
+      4. [Server Responses (5--)](#30)
+    6. [API Security](#31)
+
+
+
 
 <a name="1"></a>
 ## Introduction
@@ -196,4 +205,34 @@ When we make a standard RESTful API request to a service, it gives us a response
 
 <a name="26"></a>
 #### Common HTTP Status Code
+
+<a name="27"></a>
+##### Healthy Responses (2--)
++ 200 — OK. Request accepted.
++ 201 — Created. POST requests often return 201s when a resource is created.
++ 202  — Accepted. When a request is accepted but it is not done processing. Maybe the task goes into a queue.
+
+
+<a name="28"></a>
+##### Redirect Responses (3--)
+
+301 — Moved Permanently.  When the endpoint has permanently changed. Update your endpoint. 
+302 — Found.  The endpoint you’re accessing is temporarily moved to somewhere else.
+
+<a name="29"></a>
+##### Client Responses (4--)
+
++ 400 — Bad Request. The server cannot or will not process your request. Often this is due to malformed API keys or an invalid payload. 
++ 401 — Unauthorized.  You’re not allowed here. Usually, this is because you’re missing authentication credentials (API keys)
++ 403 — Forbidden.  The servers understand your request but won’t execute it. Your API keys might not have the right permissions or you are trying to use an endpoint that you don’t have access to.
++ 404 — Not Found.  There’s nothing here. Move along, move along.
++ 405 — Method Not Allowed.  You’re using the wrong HTTP Method. The endpoint might only accept GET requests and you might be POSTing to it, for example.
+
+<a name="30"></a>
+##### Server Responses (5--)
+
++ 500 — Internal Server Error. The server had a problem and couldn’t process the request. This is the only time you are out of control. You did not do anything to break it and so you cannot do anything about it. 
+
+<a name="31"></a>
+#### API Security
 
