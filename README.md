@@ -209,7 +209,6 @@ When we make a standard RESTful API request to a service, it gives us a response
 
 <a href="https://www.webfx.com/web-development/glossary/http-status-codes/">HTTP Status Codes Glossary</a>
 
-
 <a name="27"></a>
 ##### Healthy Responses (2--)
 + 200 — OK. Request accepted.
@@ -220,8 +219,8 @@ When we make a standard RESTful API request to a service, it gives us a response
 <a name="28"></a>
 ##### Redirect Responses (3--)
 
-301 — Moved Permanently.  When the endpoint has permanently changed. Update your endpoint. 
-302 — Found.  The endpoint you’re accessing is temporarily moved to somewhere else.
++ 301 — Moved Permanently.  When the endpoint has permanently changed. Update your endpoint. 
++ 302 — Found.  The endpoint you’re accessing is temporarily moved to somewhere else.
 
 <a name="29"></a>
 ##### Client Responses (4--)
