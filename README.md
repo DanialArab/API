@@ -174,7 +174,7 @@ When we make a standard RESTful API request to a service, it gives us a response
 + Ask another computer to update a **piece of a resource**
 + They are not fully supported by all browsers or frameworks (like Django), so we typically fall back on PUT requests
 + Since PATCH is not supported in a lot of different areas, we rely on PUT instead 
-+ Example: Updating a users first name
++ Example: Updating a user's first name
 + Its CRUD operation is a partial Update/Modify
 + Example URL(s): http://website.com/api/user/1/firstname/
 
