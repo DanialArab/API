@@ -2,6 +2,13 @@ This repo documents my understanding of creating an API with Python|Django|MySQL
 
 The structure of my notes is as follows:
 
+1. [Installations and creating a new django project and app](#1)
+2. [](#2)
+  
+
+<a name="1"></a>
+## Installations and creating a new django project and app
+
     conda create --name api
     conda activate api 
     cd Desktop
@@ -58,6 +65,19 @@ if we want our application to be accessible to every url i can set:
     CORS_ORIGIN_ALLOW_ALL = True 
 
 Registering applications with django 
+
+in the settings.py file and in the INSTALLED_APPS, I add the followings:
+
+    'rest_framework',
+    'countries.apps.CountriesConfig',
+    'corsheaders'
+    
+
+I also need to add the middleware class in the MIDDLEWARE:
+
+    'corsheaders.CorsMiddleware',
+
+    
 
 Reference:
 <a href="https://www.udemy.com/course/create-an-api-with-python-django-mysql-rest-framework/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.EN_cc.CA&utm_term=_._ag_119831896715_._ad_533102824920_._kw__._de_c_._dm__._pl__._ti_dsa-391662294458_._li_9001493_._pd__._&matchtype=&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buI9wR0ASlew2MNXtYjaTOXJscaSTUnA7m9p8ZDZPv0hfpzJl1gwHLUaAiSEEALw_wcB">Create an API with Python | Django | MySQL | REST Framework</a>
