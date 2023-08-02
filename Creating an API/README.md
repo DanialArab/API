@@ -109,8 +109,11 @@ Applying the initial migration
 +  there are several commands we use to interact with migrations and django is handling database schema:
 
       migrate ---> which is responsible for applying and un-applying migrations
+   
       makemigrations ---> which is responsible for creating new migrations based on the changes we have made to our models
-      sqlmigrate ---> which displays the SQL statements for a migration 
+   
+      sqlmigrate ---> which displays the SQL statements for a migration
+   
       showmigrations ---> which lists a project's migrations and their status 
 
 + to run the initial migration that django craetes for us
