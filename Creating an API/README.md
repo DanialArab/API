@@ -112,7 +112,7 @@ Applying the initial migration
     makemigrations ---> which is responsible for creating new migrations based on the changes we have made to our models
     sqlmigrate ---> which displays the SQL statements for a migration 
     showmigrations ---> which lists a project's migrations and their status 
-    
+
 + to run the initial migration that django craetes for us
 
     python3 manage.py migrate
