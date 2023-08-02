@@ -1,13 +1,13 @@
 
 
-  conda create --name api
-  conda activate api 
-  cd Desktop
-  mkdir countriesAPI
-  python3 -m pip install --upgrade pip 
-  pip install django 
-  python3 -m django --version
-  4.2.4
+    conda create --name api
+    conda activate api 
+    cd Desktop
+    mkdir countriesAPI
+    python3 -m pip install --upgrade pip 
+    pip install django 
+    python3 -m django --version
+    4.2.4
 
 
   
