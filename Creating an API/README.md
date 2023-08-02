@@ -9,7 +9,10 @@
     python3 -m django --version
     4.2.4
 
+installing django rest framework to build web apis
 
+    pip install djangorestframework
+    
   
 
 
