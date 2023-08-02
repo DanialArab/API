@@ -3,7 +3,7 @@ This repo documents my understanding of creating an API with Python|Django|MySQL
 The structure of my notes is as follows:
 
 1. [Installations, creating a new django project and app, and database integration](#1)
-2. [](#2)
+2. [Creating a model and serializer](#2)
   
 
 <a name="1"></a>
@@ -144,7 +144,10 @@ which gives me back
     Applying auth.0012_alter_user_first_name_max_length... OK
     Applying sessions.0001_initial... OK
 
-    
+<a name="2"></a>
+## Creating a model and serializer 
+
+HERE
 
 
 Reference:
