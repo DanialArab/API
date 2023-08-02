@@ -118,7 +118,7 @@ Applying the initial migration
 
 + to run the initial migration that django craetes for us
 
-    python3 manage.py migrate
+      python3 manage.py migrate
 
 which gives me back
 
