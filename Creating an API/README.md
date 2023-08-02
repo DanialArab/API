@@ -77,7 +77,15 @@ I also need to add the middleware class in the MIDDLEWARE:
 
     'corsheaders.CorsMiddleware',
 
-    
+Setting up MySQL Database server to be able to interact with django application 
+
++ we need to create a new database in the MySQL server where django can create tables
++ we also need to create a new database user with standard authentication and some permission that we use to interact with our django application 
++ we need to install the Mysqlclient, a database adapter, which enables the MySQL database to communicate with our django application
+
+
+
+
 
 Reference:
 <a href="https://www.udemy.com/course/create-an-api-with-python-django-mysql-rest-framework/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.EN_cc.CA&utm_term=_._ag_119831896715_._ad_533102824920_._kw__._de_c_._dm__._pl__._ti_dsa-391662294458_._li_9001493_._pd__._&matchtype=&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buI9wR0ASlew2MNXtYjaTOXJscaSTUnA7m9p8ZDZPv0hfpzJl1gwHLUaAiSEEALw_wcB">Create an API with Python | Django | MySQL | REST Framework</a>
