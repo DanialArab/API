@@ -87,16 +87,16 @@ Setting up MySQL Database server to be able to interact with django application
 
 + Django, by default, is prepacked with a default database sqlite, we need to change it to MySQL database. So, we need to set up the database configuration in the settings.py file:
 
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'countriesdb',
-            'USER': 'root',
-            'PASSWORD': 'mypassword',
-            'HOST': '127.0.0.1',
-            'PORT': '3306'
-        }
-    }
+      DATABASES = {
+          'default': {
+              'ENGINE': 'django.db.backends.mysql',
+              'NAME': 'countriesdb',
+              'USER': 'root',
+              'PASSWORD': 'mypassword',
+              'HOST': '127.0.0.1',
+              'PORT': '3306'
+          }
+      }
 
 Applying the initial migration
 
