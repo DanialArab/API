@@ -246,6 +246,51 @@ When we make a standard RESTful API request to a service, it gives us a response
 + Almost every website requires API keys to perform some action.
 + Facebook's Graph API is a good example: graph.facebook.com/codingforeverybody
 
+
+# I need to make sure that I really understand:
+
+A solid understanding of using RESTful APIs can be demonstrated through various aspects of knowledge and practical application. Here are some key indicators that showcase a strong grasp of working with REST APIs:
+
+1. Understanding of REST Principles:
+Demonstrate a clear understanding of the principles of REST (Representational State Transfer) architecture, including statelessness, resource-based interactions, uniform interface, and the proper use of HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources.
+
+2. Ability to Make API Requests:
+Show proficiency in making HTTP requests (GET, POST, PUT, DELETE) to interact with RESTful APIs. Understand how to include request parameters, headers, and authentication tokens when making requests.
+
+3. Handling Responses:
+Know how to handle different types of API responses, including success, error, and paginated responses. Interpret HTTP status codes to understand the outcome of API requests.
+
+4. Data Formats:
+Be familiar with common data formats used in REST APIs, such as JSON and XML. Understand how to parse and manipulate data received from API responses.
+
+5. Authentication and Authorization:
+Demonstrate knowledge of various authentication methods used in RESTful APIs, such as API keys, OAuth, and JWT (JSON Web Tokens). Understand how to implement authorization mechanisms to restrict access to certain resources.
+
+6. API Documentation:
+Show the ability to read and interpret API documentation. Understand the API endpoints, request parameters, response formats, and sample requests provided in the documentation.
+
+7. Error Handling:
+Be capable of handling errors gracefully by interpreting error responses from APIs and implementing appropriate error handling mechanisms in your code.
+
+8. API Testing:
+Show that you can test RESTful APIs effectively. This includes using tools like Postman or cURL to test API endpoints, verify responses, and ensure the correctness of your implementations.
+
+9. API Design:
+Demonstrate the ability to design simple and intuitive APIs that adhere to RESTful principles. This includes choosing appropriate resource names, using proper HTTP methods, and organizing endpoints logically.
+
+10. Practical Implementation:
+Provide examples of projects or code snippets where you have successfully used RESTful APIs to interact with external services, retrieve data, or perform actions on remote resources.
+
+11. Error Handling:
+Be capable of handling errors gracefully by interpreting error responses from APIs and implementing appropriate error handling mechanisms in your code.
+
+12. Performance Considerations:
+Understand performance considerations when working with RESTful APIs, such as minimizing the number of requests, using pagination effectively, and caching responses when appropriate.
+
+A solid understanding of REST APIs goes beyond just theoretical knowledge; it involves hands-on experience and practical application of these concepts in real-world scenarios. Being able to work with various APIs, integrate them into applications, and build robust and efficient systems using RESTful principles are essential indicators of a strong understanding of RESTful APIs.
+
+
+
 <a name="33"></a>
 ### Reference
 
