@@ -13,7 +13,21 @@ installing django rest framework to build web apis
 
     pip install djangorestframework
     
-  
+to see the version of the installed djangorestframework:
+
+    pip show djangorestframework
+    
+    Name: djangorestframework
+    Version: 3.14.0
+    Summary: Web APIs for Django, made easy.
+    Home-page: https://www.django-rest-framework.org/
+    Author: Tom Christie
+    Author-email: tom@tomchristie.com
+    License: BSD
+    Location: /home/danial/.local/lib/python3.10/site-packages
+    Requires: django, pytz
+    Required-by: 
+
 
 
 Reference:
