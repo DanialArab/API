@@ -42,7 +42,17 @@ to see the version of the installed djangorestframework:
 to craete a new django project:
 
     django-admin startproject worldCountries . 
-    
+
+some notes on the files in my project directory:
+
+1. __init__.py ----> is an empty file that tells python that this directory should be considered a python package 
+2. asgi.py ----> an entry-point for ASGI-compatible web servers to serve my project 
+3. settings.py ----> settings/configuration for this django project 
+4. urls.py ----> contains url declaration for this django projct, contains the list of routes for urls for my application 
+5. wsgi.py ----> an entry-point for WSGI-compatible web servers to serve my project 
+6. manage.py ----> is a command line utility that lets me interact with the django project in various ways 
+
+
 to craete a new django app:
 
     python3 manage.py startapp countries 
