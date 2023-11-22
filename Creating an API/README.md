@@ -1,5 +1,7 @@
 This repo documents my understanding of creating an API with Python|Django|MySQL|Django REST framework
 
+![](https://github.com/DanialArab/images/blob/main/API/course%20detail.png)
+
 The structure of my notes is as follows:
 
 1. [Installations, creating a new django project and app, and database integration](#1)
