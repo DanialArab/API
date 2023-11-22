@@ -93,6 +93,8 @@ A middleware is a framework of hooks into django's request/response processing. 
 
 Setting up MySQL Database server to be able to interact with django application 
 
+![](https://github.com/DanialArab/images/blob/main/API/mysql%20workbench.png)
+
 + we need to create a new database in the MySQL server where django can create tables
 + we also need to create a new database user with standard authentication and some permission that we use to interact with our django application (in my case since the authentication of the root user was already Standard I skipped this step)
 + we need to install the mysqlclient, a database adapter, which enables the MySQL database to communicate with our django application (https://pypi.org/project/mysqlclient/):
