@@ -82,7 +82,7 @@ in the settings.py file and in the INSTALLED_APPS, I add the followings:
 
     'rest_framework',
     'countries.apps.CountriesConfig',
-    'corsheaders'
+    'corsheaders',
     
 
 I also need to add the middleware class in the MIDDLEWARE:
