@@ -45,7 +45,7 @@ to craete a new django project:
 
 some notes on the files in my project directory:
 
-1. **__init__.py** ----> is an empty file that tells python that this directory should be considered a python package 
+1. ***__init__.py*** ----> is an empty file that tells python that this directory should be considered a python package 
 2. asgi.py ----> an entry-point for ASGI-compatible web servers to serve my project 
 3. settings.py ----> settings/configuration for this django project 
 4. urls.py ----> contains url declaration for this django projct, contains the list of routes for urls for my application 
