@@ -85,7 +85,7 @@ in the settings.py file and in the INSTALLED_APPS, I add the followings:
     'corsheaders',
     
 
-I also need to add the middleware class in the MIDDLEWARE:
+I also need to add the middleware class in the MIDDLEWARE: 
 
     'corsheaders.CorsMiddleware',
 
