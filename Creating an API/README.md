@@ -89,6 +89,8 @@ I also need to add the middleware class in the MIDDLEWARE:
 
     'corsheaders.CorsMiddleware',
 
+A middleware is a framework of hooks into django's request/response processing. It is a light, low-level 'plugin' system for globally altering django's input or output. Each middleware component is responsible for doing some specific function. For example, django includes a middleware component, AuthenticationMiddleware, that associates users with requests using sessions. 
+
 Setting up MySQL Database server to be able to interact with django application 
 
 + we need to create a new database in the MySQL server where django can create tables
