@@ -3,16 +3,22 @@ This repo documents my understanding of creating an API with Python|Django|MySQL
 Here are my notes from the course
 <a href="https://www.udemy.com/course/create-an-api-with-python-django-mysql-rest-framework/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.EN_cc.CA&utm_term=_._ag_119831896715_._ad_533102824920_._kw__._de_c_._dm__._pl__._ti_dsa-391662294458_._li_9001493_._pd__._&matchtype=&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buI9wR0ASlew2MNXtYjaTOXJscaSTUnA7m9p8ZDZPv0hfpzJl1gwHLUaAiSEEALw_wcB">Create an API with Python | Django | MySQL | REST Framework</a>
 
-![](https://github.com/DanialArab/images/blob/main/API/course%20detail.png)
 
 The structure of my notes is as follows:
 
-1. [Installations, creating a new django project and app, and database integration](#1)
-2. [Creating a model and serializer](#2)
+1. [Installations](#1)
+2. [Craeting a new django project](#2)
+3. [Creating a new django app and CORS configuration](#3)
+4. [Registering applications with django](#4)
+5. [Setting up MySQL Database server to be able to interact with django application](#5)
+6. [Creating a model and serializer](#6)
   
 
+
+![](https://github.com/DanialArab/images/blob/main/API/course%20detail.png)
+
 <a name="1"></a>
-## Installations, creating a new django project and app, and database integration
+## Installations
 
     conda create --name api
     conda activate api 
@@ -42,7 +48,8 @@ to see the version of the installed djangorestframework:
     Requires: django, pytz
     Required-by: 
 
-to craete a new django project:
+<a name="2"></a>
+## Craeting a new django project
 
     django-admin startproject worldCountries . 
 
@@ -56,7 +63,8 @@ some notes on the files in my project directory:
 6. manage.py ----> is a command line utility that lets me interact with the django project in various ways 
 
 
-to craete a new django app:
+<a name="3"></a>
+## Creating a new django app and CORS configuration:
 
     python3 manage.py startapp countries 
 
@@ -79,7 +87,8 @@ if we want our application to be accessible to every url i can set:
 
     CORS_ORIGIN_ALLOW_ALL = True 
 
-Registering applications with django 
+<a name="4"></a>
+## Registering applications with django 
 
 in the settings.py file and in the INSTALLED_APPS, I add the followings:
 
@@ -94,7 +103,8 @@ I also need to add the middleware class in the MIDDLEWARE:
 
 A middleware is a framework of hooks into django's request/response processing. It is a light, low-level 'plugin' system for globally altering django's input or output. Each middleware component is responsible for doing some specific function. For example, django includes a middleware component, AuthenticationMiddleware, that associates users with requests using sessions. 
 
-Setting up MySQL Database server to be able to interact with django application 
+<a name="5"></a>
+## Setting up MySQL Database server to be able to interact with django application 
 
 ![](https://github.com/DanialArab/images/blob/main/API/mysql%20workbench.png)
 
