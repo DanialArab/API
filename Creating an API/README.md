@@ -176,5 +176,6 @@ which gives me back
 <a name="2"></a>
 ## Creating a model and serializer 
 
-HERE
+Creating a Django model 
+
 
