@@ -195,3 +195,8 @@ Creating a Django model
       
           class Meta:
               ordering = ('id',)
+
+
+Creating a new migration 
+
++ Migrations are django's way of propagating changes you make to your models (adding a field, deleting a model, etc.) into our database schema 
