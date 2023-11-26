@@ -235,3 +235,5 @@ after that django automatically generates the following code in a file named 000
 in order to create a table in the database we have to apply migration:
 
     python3 manage.py migrate countries 
+
+after applying the migration a new table is then created inside the database named after our model class and migration for me it will be name countries_countries
