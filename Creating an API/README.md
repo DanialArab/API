@@ -185,4 +185,4 @@ Creating a Django model
           name = models.CharField(max_length=50, blank=False, default='')
           capital = models.CharField(max_length=50, blank=False, default='')
 
-
++ Django automatically adds an auto-increment integer primary key column named id
