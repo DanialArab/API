@@ -236,4 +236,5 @@ in order to create a table in the database we have to apply migration:
 
     python3 manage.py migrate countries 
 
-after applying the migration a new table is then created inside the database named after our model class and migration for me it will be name countries_countries
+after applying the migration a new table is then created inside the database named after our model class, for me it will be named countries_countries
+
