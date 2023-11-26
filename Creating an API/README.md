@@ -186,3 +186,12 @@ Creating a Django model
           capital = models.CharField(max_length=50, blank=False, default='')
 
 + Django automatically adds an auto-increment integer primary key column named id
++ I add an inner class called Meta with an ordering attribute to sort and order the records in the database by their id value in ascending order when a query is made to the database table
+
+
+      class Countries (models.Model):
+          name = models.CharField(max_length=50, blank=False, default='')
+          capital = models.CharField(max_length=50, blank=False, default='')
+      
+          class Meta:
+              ordering = ('id',)
