@@ -179,4 +179,10 @@ which gives me back
 Creating a Django model 
 
 + A model is a class that represents a table or collection in a database. A model is a class that is in the models module in django framework. 
-+ 
++ I defined a name and capital attribute which will represent columns inside the database table. 
+
+    class Countries (models.Model):
+        name = models.CharField(max_length=50, blank=False, default='')
+        capital = models.CharField(max_length=50, blank=False, default='')
+
+
