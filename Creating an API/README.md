@@ -275,4 +275,15 @@ SOME note:
 + that the development web server should not be used for production since it is meant to be used for development ONLY!
 + The development web server has automatic reloading which automatically restarts the web server when it detects changes in our code so we don't need to restart the server.
 
+Creating a SuperUser account
+
++ Every Django application has a public interface that users can interact with, it also has an administrative interface that the administrative of the application can interact with, in order to interact or access the administrative page of a django application we need to have a SuperUser account. To access the administrative page of any django application in the address bar after the port number we do a slash and then a word admin like
+
+      http://127.0.0.1:8080/admin
+
+
+
+  
+
+
 
