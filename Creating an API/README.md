@@ -13,7 +13,8 @@ The structure of my notes is as follows:
 6. [Database integration](#5)
   1. [Setting up MySQL Database server to be able to interact with django application](#6)
   2. [Applying the initial migration](#7)
-8. [Creating a model and serializer](#6)
+8. [Creating a model and serializer](#8)
+  1. []
   
 
 
