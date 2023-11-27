@@ -21,6 +21,7 @@ The structure of my notes is as follows:
     5. [Creating a SuperUser account](#13)
 5. [Creating Views and URLs](#14)
     1. [Creating views](#15)
+    2. [Mapping views to URLs](#16)
 
  
 
@@ -399,6 +400,14 @@ some notes on the views.py above:
 + GET is used to request data from a specified resource
 + POST is used to send data to a server to create a response
 + PUT is used to send data to a server to update a resource
-+ DELETE method deletes the specified resource 
++ DELETE method deletes the specified resource
++ try block lets me test a block of code for errors and the except block lets me handle the error 
 + django filter allows users to filter down a queryset based on a model's fields.
 + the icontains checks if either the name or the description field contains the value of search_terms. 
+
+<a name="16"></a>
+### Mapping views to URLs 
+
+A uniform resource locator (URL), colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier, although many people use the two terms interchangeably. 
+
+
