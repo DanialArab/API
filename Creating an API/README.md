@@ -23,6 +23,7 @@ The structure of my notes is as follows:
     1. [Creating views](#15)
     2. [Mapping views to URLs](#16)
     3. [Register model with admin site](#17)
+    4. [Creatig model objects](#18)
 
  
 
@@ -451,6 +452,7 @@ also in my urls.py file inside the worldCountries project:
         admin.site.register(Countries)
 
 
-
+<a name="18"></a>
+### Creatig model objects 
 
 
