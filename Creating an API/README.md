@@ -441,3 +441,16 @@ also in my urls.py file inside the worldCountries project:
 
 <a name="17"></a>
 ### Register model with admin site 
+
+        in the admin.py file:
+        
+        from django.contrib import admin
+        from .models import Countries 
+        # Register your models here.
+        
+        admin.site.register(Countries)
+
+
+
+
+
