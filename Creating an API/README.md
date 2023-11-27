@@ -9,7 +9,7 @@ The structure of my notes is as follows:
 1. [Getting started](#1)
     1. [Installations](#2)
 2. [Craeting a new django project](#3)
-  1. [Creating a new django app, CORS configuration, and registering applications with django](#4)
+    1. [Creating a new django app, CORS configuration, and registering applications with django](#4)
 6. [Database integration](#5)
   1. [Setting up MySQL Database server to be able to interact with django application](#6)
   2. [Applying the initial migration](#7)
