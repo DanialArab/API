@@ -29,10 +29,6 @@ The structure of my notes is as follows:
     2. [Testing API with CRUD operations](#21)
  
 
-
-
-
-
 ![](https://github.com/DanialArab/images/blob/main/API/course%20detail.png)
 
 <a name="1"></a>
