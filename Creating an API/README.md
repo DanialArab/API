@@ -455,4 +455,4 @@ also in my urls.py file inside the worldCountries project:
 <a name="18"></a>
 ### Creatig model objects 
 
-
+Objects are records inside a database table. I want to interact with the model from the admin site of the application. 
