@@ -238,3 +238,29 @@ in order to create a table in the database we have to apply migration:
 
 after applying the migration a new table is then created inside the database named after our model class, for me it will be named countries_countries
 
+Creating a serializer class
+
+What are serializers? 
+
++ They allow complex data such as querysets and model instances to be converted to native Python data types that can then be easily rendered into JSON, XML, or other content types.
++ Serializers also provide deserialization, which basically allows data that has been parsed from incoming data, that has been validated, to be converted back into a complex data type.
++ The serializers in REST framework work in a similar way to django forms and ModelForm classes. 
+
+In the countries, we create a Python file called serializers.py which contains:
+
+    from rest_framework import serializers
+    from countries.models import Countries 
+    
+    class CounriesSerializers(serializers.ModelSerializer):
+
+     # class CounriesSerializers will manage serialization and deserialization from JSON. It inherits from rest_framework.serializers.ModelSerializer superclass whih automatically populates a set of fields and default validators. 
+     
+        class Meta:
+            model = Countries
+            fields = ('id', 'name', 'capital')
+
+
+        
+
+
+
