@@ -492,3 +492,5 @@ Postman is an API platform for developers to design, build, test, and iterate th
 <a name="21"></a>
 ### Testing API with CRUD operations
 
+When we are building APIs, we want our models to provide 4 basic types of functionalities. The model must be able to Create, Read, Update, and Delete (CRUD) resources. 
+
