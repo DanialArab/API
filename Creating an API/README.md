@@ -22,6 +22,7 @@ The structure of my notes is as follows:
 5. [Creating Views and URLs](#14)
     1. [Creating views](#15)
     2. [Mapping views to URLs](#16)
+    3. [Register model with admin site](#17)
 
  
 
@@ -415,9 +416,28 @@ A uniform resource locator (URL), colloquially termed a web address, is a refere
 + URLconf is a set of patterns that django tries to match with the requested URL to find the correct view. A view in django is a python function that accepts a web request and delivers a web response. In django, a request is touted through urls.py and then to the corresponding function in views.py.
 + Each view needs to be mapped to the corresponding URL pattern, which is done using a Python module called URLconf
 + URLConf is a set of patterns that django tries to match with the requested URL to find the correct view. A view in django is a Python function that accepts a web request and delivers a web response. In django, a request is routed through urls.py and then to the corresponding function in views.py.
-+ Every URLConf module must contain a variable urlpatterns which is a set of URL patterns to be matched against the requested URL
-+ 
++ Every URLConf module must contain a variable urlpatterns which is a set of URL patterns to be matched against the requested URL. In my urls.py: 
+
+        from django.urls import path
+        from . import views
+        
+        urlpatterns = [
+        
+            path('api/countries', views.countries_list),
+            path('api/countries/<int:pk>', views.countries_detail)
+        
+        ]
+
+also in my urls.py file inside the worldCountries project:
+
+        from django.contrib import admin
+        from django.urls import path, include 
+        
+        urlpatterns = [
+            path('admin/', admin.site.urls),
+            path('', include('countries.urls')), 
+        ]
 
 
-
-
+<a name="17"></a>
+### Register model with admin site 
