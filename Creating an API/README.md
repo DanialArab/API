@@ -10,16 +10,17 @@ The structure of my notes is as follows:
     1. [Installations](#2)
 2. [Craeting a new django project](#3)
     1. [Creating a new django app, CORS configuration, and registering applications with django](#4)
-6. [Database integration](#5)
+3. [Database integration](#5)
     1. [Setting up MySQL Database server to be able to interact with django application](#6)
     2. [Applying the initial migration](#7)
-8. [Creating a model and serializer](#8)
+4. [Creating a model and serializer](#8)
     1. [Creating a Django model ](#9)
     2. [Creating a applying new migration](#10)
     3. [Creating a serializer class](#11)
     4. [Starting and stopping a Development Server](#12)
     5. [Creating a SuperUser account](#13)
-  
+5. [Creating Views and URLs](#14)
+    1. [Creating views](#15)
 
  
 
@@ -33,7 +34,7 @@ The structure of my notes is as follows:
 ## Getting started
 
 <a name="2"></a>
-## Installations
+### Installations
 
     conda create --name api
     conda activate api 
@@ -79,7 +80,7 @@ some notes on the files in my project directory:
 
 
 <a name="4"></a>
-## Creating a new django app, CORS configuration, and registering applications with django
+### Creating a new django app, CORS configuration, and registering applications with django
 
     python3 manage.py startapp countries 
 
@@ -120,7 +121,7 @@ A middleware is a framework of hooks into django's request/response processing. 
 ## Database integration
 
 <a name="6"></a>
-## Setting up MySQL Database server to be able to interact with django application 
+### Setting up MySQL Database server to be able to interact with django application 
 
 ![](https://github.com/DanialArab/images/blob/main/API/mysql%20workbench.png)
 
@@ -144,7 +145,7 @@ A middleware is a framework of hooks into django's request/response processing. 
       }
 
 <a name="7"></a>
-## Applying the initial migration
+### Applying the initial migration
 
 +  Migrations are django ways to propagate changes we make in our models into our database schema
 +  the changes may include adding a field, deleting a model, etc.
@@ -194,7 +195,7 @@ which gives me back
 ## Creating a model and serializer 
 
 <a name="9"></a>
-## Creating a Django model 
+### Creating a Django model 
 
 + A model is a class that represents a table or collection in a database. A model is a class that is in the models module in django framework. 
 + I defined a name and capital attribute which will represent columns inside the database table. 
@@ -216,7 +217,7 @@ which gives me back
 
 
 <a name="10"></a>
-## Creating a applying new migration 
+### Creating a applying new migration 
 
 + Migrations are django's way of propagating changes we make to our models (adding a field, deleting a model, etc.) into our database schema. The command to create a new migration is 
 
@@ -258,7 +259,7 @@ in order to create a table in the database we have to apply migration:
 after applying the migration a new table is then created inside the database named after our model class, for me it will be named countries_countries
 
 <a name="11"></a>
-## Creating a serializer class
+### Creating a serializer class
 
 What are serializers? 
 
@@ -281,7 +282,7 @@ In the countries, we create a Python file called serializers.py which contains:
 
 
 <a name="12"></a>
-## Starting and stopping a Development Server
+### Starting and stopping a Development Server
 
 Django comes pre-installed with a lightweight web server which is written in Python enabling us to test our project during the development. 
 
@@ -297,7 +298,7 @@ SOME note:
 + The development web server has automatic reloading which automatically restarts the web server when it detects changes in our code so we don't need to restart the server.
 
 <a name="13"></a>
-## Creating a SuperUser account
+### Creating a SuperUser account
 
 + Every Django application has a public interface that users can interact with, it also has an administrative interface that the administrative of the application can interact with, in order to interact or access the administrative page of a django application we need to have a SuperUser account. To access the administrative page of any django application in the address bar after the port number we do a slash and then a word admin like
 
@@ -319,5 +320,10 @@ where gives me a couple of prompts like creating a username, entering an email, 
     Superuser created successfully.
 
 
-Creating Views and URLs
+<a name="14"></a>
+## Creating Views and URLs
+
+<a name="15"></a>
+### Creating views
+here
 
