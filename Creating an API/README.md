@@ -266,4 +266,10 @@ Django comes pre-installed with a lightweight web server which is written in Pyt
 
     python3 manage.py runserver
 
+we can specify the development server like
+
+    python3 manage.py runserver 8080
+
+note that the development web server should not be used for production since it is meant to be usedfor development ONLY!
+
 
