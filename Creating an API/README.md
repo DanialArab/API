@@ -325,5 +325,11 @@ where gives me a couple of prompts like creating a username, entering an email, 
 
 <a name="15"></a>
 ### Creating views
-here
+
++ A view is a Python function or class that takes a web request and returns a web response
++ Views are used to do things like fetch objects from the database, modify those objects if needed, render forms, return HTML, and much more
++ Django has to types of views:
+    + Function-based views (FBVs)
+    + Class-based views (CBVs)
+
 
