@@ -479,9 +479,10 @@ also in my urls.py file inside the worldCountries project:
     + self keyword represents the instance of the class. It allows the attributes and methods of the class to be accessed. 
 
 
-
 <a name="19"></a>
 ## Testing API
 
 <a name="20"></a>
-###
+### Postman
+
+Postman is an API platform for developers to design, build, test, and iterate their APIs. 
