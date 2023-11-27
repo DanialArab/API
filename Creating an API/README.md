@@ -328,6 +328,7 @@ where gives me a couple of prompts like creating a username, entering an email, 
 ### Creating views
 
 + A view is a Python function or class that takes a web request and returns a web response
++ The response can be a simple HTTP response, an HTML template response, or an HTTP redirect response that redirects a user to another page. 
 + Views are used to do things like fetch objects from the database, modify those objects if needed, render forms, return HTML, and much more
 + Django has to types of views:
     + Function-based views (FBVs)
@@ -410,4 +411,5 @@ some notes on the views.py above:
 
 A uniform resource locator (URL), colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier, although many people use the two terms interchangeably. 
 
-
++ The path function is contained with the django.urls module within the django project code base. path is used for routing URLs to the appropriate view functions within a django application using the URL dispatcher.
++ 
