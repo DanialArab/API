@@ -10,8 +10,10 @@ The structure of my notes is as follows:
   1. [Installations](#2)
 2. [Craeting a new django project](#3)
   1. [Creating a new django app, CORS configuration, and registering applications with django](#4)
-6. [Setting up MySQL Database server to be able to interact with django application](#5)
-7. [Creating a model and serializer](#6)
+6. [Database integration](#5)
+  1. [Setting up MySQL Database server to be able to interact with django application](#6)
+  2. [Applying the initial migration](#7)
+8. [Creating a model and serializer](#6)
   
 
 
@@ -105,6 +107,9 @@ I also need to add the middleware class in the MIDDLEWARE:
 A middleware is a framework of hooks into django's request/response processing. It is a light, low-level 'plugin' system for globally altering django's input or output. Each middleware component is responsible for doing some specific function. For example, django includes a middleware component, AuthenticationMiddleware, that associates users with requests using sessions. 
 
 <a name="5"></a>
+## Database integration
+
+<a name="6"></a>
 ## Setting up MySQL Database server to be able to interact with django application 
 
 ![](https://github.com/DanialArab/images/blob/main/API/mysql%20workbench.png)
@@ -128,7 +133,7 @@ A middleware is a framework of hooks into django's request/response processing. 
           }
       }
 
-<a name="6"></a>
+<a name="7"></a>
 ## Applying the initial migration
 
 +  Migrations are django ways to propagate changes we make in our models into our database schema
