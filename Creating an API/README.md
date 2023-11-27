@@ -398,5 +398,7 @@ where gives me a couple of prompts like creating a username, entering an email, 
 some notes on the views.py above:
 + GET is used to request data from a specified resource
 + POST is used to send data to a server to create a response
++ PUT is used to send data to a server to update a resource
++ DELETE method deletes the specified resource 
 + django filter allows users to filter down a queryset based on a model's fields.
-+ 
++ the icontains checks if either the name or the description field contains the value of search_terms. 
