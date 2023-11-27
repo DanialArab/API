@@ -281,9 +281,19 @@ Creating a SuperUser account
 
       http://127.0.0.1:8080/admin
 
+this gives me access to the administrative page where I need to have a SuperUser account to log in for which in the terminal I run:
 
+    python3 manage.py createsuperuser
 
-  
+where gives me a couple of prompts like creating a username, entering an email, and creating a password, like:
 
+    python3 manage.py createsuperuser
+    Username (leave blank to use 'danial'):
+    Email address: danial.arab@trulioo.com
+    Error: Enter a valid email address.
+    Email address: danial.arab@gmail.com
+    Password:
+    Password (again):
+    Superuser created successfully.
 
 
