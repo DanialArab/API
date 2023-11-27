@@ -25,6 +25,8 @@ The structure of my notes is as follows:
     3. [Register model with admin site](#17)
     4. [Creatig model objects](#18)
 6. [Testing API](#19)
+    1. [Postman](#20)
+    2. [Testing API with CRUD operations](#21)
  
 
 
@@ -486,3 +488,7 @@ also in my urls.py file inside the worldCountries project:
 ### Postman
 
 Postman is an API platform for developers to design, build, test, and iterate their APIs. 
+
+<a name="21"></a>
+### Testing API with CRUD operations
+
