@@ -24,7 +24,7 @@ The structure of my notes is as follows:
     2. [Mapping views to URLs](#16)
     3. [Register model with admin site](#17)
     4. [Creatig model objects](#18)
-
+6. [Testing API](#19)
  
 
 
@@ -455,4 +455,33 @@ also in my urls.py file inside the worldCountries project:
 <a name="18"></a>
 ### Creatig model objects 
 
-Objects are records inside a database table. I want to interact with the model from the admin site of the application. 
++ Objects are records inside a database table. I want to interact with the model from the admin site of the application.
++ django automatically creates an id field behind the scene.
++ inside my models.py file:
+
+        from django.db import models
+        
+        # Create your models here.
+        
+        
+        class Countries (models.Model):
+            name = models.CharField(max_length=50, blank=False, default='')
+            capital = models.CharField(max_length=50, blank=False, default='')
+        
+            def __str__(self):
+                return self.name 
+        
+            class Meta:
+                ordering = ('id',)
+
++ some notes:
+    + __str__ method is a string representation of the object
+    + self keyword represents the instance of the class. It allows the attributes and methods of the class to be accessed. 
+
+
+
+<a name="19"></a>
+## Testing API
+
+<a name="20"></a>
+###
