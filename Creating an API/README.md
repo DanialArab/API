@@ -270,6 +270,9 @@ we can specify the development server like
 
     python3 manage.py runserver 8080
 
-note that the development web server should not be used for production since it is meant to be usedfor development ONLY!
+SOME note:
+
++ that the development web server should not be used for production since it is meant to be used for development ONLY!
++ the development web server has automatic reloading which automatically restarts the web server when it detects changes in our code.
 
 
