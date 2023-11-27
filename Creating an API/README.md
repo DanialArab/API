@@ -273,6 +273,6 @@ we can specify the development server like
 SOME note:
 
 + that the development web server should not be used for production since it is meant to be used for development ONLY!
-+ the development web server has automatic reloading which automatically restarts the web server when it detects changes in our code.
++ The development web server has automatic reloading which automatically restarts the web server when it detects changes in our code so we don't need to restart the server.
 
 
