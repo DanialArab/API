@@ -331,5 +331,7 @@ where gives me a couple of prompts like creating a username, entering an email, 
 + Django has to types of views:
     + Function-based views (FBVs)
     + Class-based views (CBVs)
-
-
++ A render is a function that creates a shortcut for communicating with a web browser 
++ JsonResponse is an HttpResponse subclass that helps create a JSON-encoded response
++ JSONParser is a parser class from REST framework used to accept JSON request
++ 
