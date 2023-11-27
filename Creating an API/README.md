@@ -498,3 +498,55 @@ Before interacting with Postman to test the API, I need to make sure that my dev
 
 ![](https://github.com/DanialArab/images/blob/main/API/postman_testing_API.png)
 
+It is always a good idea to keep an eye on the console for the development server as it displays interaction with the application. Like my tmux terminal is:
+
+        ulate_init.js HTTP/1.1" 304 0                      │(base) danial@LYVR-G6423233FB:/mnt/c/Users/danial.[27/Nov/2023 05:26:42] "GET /static/admin/js/theme.│arab/Downloads$
+        js HTTP/1.1" 304 0                                 │
+        [27/Nov/2023 05:26:42] "GET /static/admin/js/change│
+        _form.js HTTP/1.1" 304 0                           │
+        [27/Nov/2023 05:26:42] "GET /static/admin/js/nav_si│
+        debar.js HTTP/1.1" 304 0                           │
+        [27/Nov/2023 05:26:44] "GET /admin/countries/countr│
+        ies/ HTTP/1.1" 200 9305                            │
+        [27/Nov/2023 05:27:07] "GET /api/countries HTTP/1.1│
+        " 200 207                                          │
+        [27/Nov/2023 05:27:27] "DELETE /api/countries/4 HTT│
+        P/1.1" 204 48                                      │
+        [27/Nov/2023 05:27:29] "GET /admin/countries/countr│
+        ies/ HTTP/1.1" 200 9092                            │
+        [27/Nov/2023 05:27:29] "GET /static/admin/css/base.│
+        css HTTP/1.1" 304 0                                │
+        [27/Nov/2023 05:27:29] "GET /static/admin/css/nav_s│
+        idebar.css HTTP/1.1" 304 0                         │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/vendor│
+        /jquery/jquery.js HTTP/1.1" 304 0                  │
+        [27/Nov/2023 05:27:29] "GET /static/admin/css/chang│
+        elists.css HTTP/1.1" 304 0                         │
+        [27/Nov/2023 05:27:29] "GET /static/admin/css/dark_│
+        mode.css HTTP/1.1" 304 0                           │
+        [27/Nov/2023 05:27:29] "GET /static/admin/css/respo│
+        nsive.css HTTP/1.1" 304 0                          │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/admin/│
+        RelatedObjectLookups.js HTTP/1.1" 304 0            │
+        [27/Nov/2023 05:27:29] "GET /admin/jsi18n/ HTTP/1.1│
+        " 200 3343                                         │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/core.j│
+        s HTTP/1.1" 304 0                                  │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/jquery│
+        .init.js HTTP/1.1" 304 0                           │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/action│
+        s.js HTTP/1.1" 304 0                               │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/urlify│
+        .js HTTP/1.1" 304 0                                │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/prepop│
+        ulate.js HTTP/1.1" 304 0                           │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/vendor│
+        /xregexp/xregexp.js HTTP/1.1" 304 0                │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/theme.│
+        js HTTP/1.1" 304 0                                 │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/nav_si│
+        debar.js HTTP/1.1" 304 0                           │
+        [27/Nov/2023 05:27:29] "GET /static/admin/js/filter│
+        s.js HTTP/1.1" 304 0                               │
+
+
