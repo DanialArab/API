@@ -412,4 +412,6 @@ some notes on the views.py above:
 A uniform resource locator (URL), colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier, although many people use the two terms interchangeably. 
 
 + The path function is contained with the django.urls module within the django project code base. path is used for routing URLs to the appropriate view functions within a django application using the URL dispatcher.
++ URLconf is a set of patterns that django tries to match with the requested URL to find the correct view. A view in django is a python function that accepts a web request and delivers a web response. In django, a request is touted through urls.py and then to the corresponding function in views.py.
++ each view needs to be mapped to the corresonding URL pattern, which is done using a python module called URLconf
 + 
