@@ -11,11 +11,20 @@ The structure of my notes is as follows:
 2. [Craeting a new django project](#3)
     1. [Creating a new django app, CORS configuration, and registering applications with django](#4)
 6. [Database integration](#5)
-  1. [Setting up MySQL Database server to be able to interact with django application](#6)
-  2. [Applying the initial migration](#7)
+    1. [Setting up MySQL Database server to be able to interact with django application](#6)
+    2. [Applying the initial migration](#7)
 8. [Creating a model and serializer](#8)
-  1. []
+    1. [Creating a Django model ](#9)
+    2. [Creating a applying new migration](#10)
+    3. [Creating a serializer class](#11)
+    4. [Starting and stopping a Development Server](#12)
+    5. [Creating a SuperUser account](#13)
   
+
+ 
+
+
+
 
 
 ![](https://github.com/DanialArab/images/blob/main/API/course%20detail.png)
@@ -181,10 +190,11 @@ which gives me back
     Applying auth.0012_alter_user_first_name_max_length... OK
     Applying sessions.0001_initial... OK
 
-<a name="2"></a>
+<a name="8"></a>
 ## Creating a model and serializer 
 
-Creating a Django model 
+<a name="9"></a>
+## Creating a Django model 
 
 + A model is a class that represents a table or collection in a database. A model is a class that is in the models module in django framework. 
 + I defined a name and capital attribute which will represent columns inside the database table. 
@@ -205,7 +215,8 @@ Creating a Django model
               ordering = ('id',)
 
 
-Creating a new migration 
+<a name="10"></a>
+## Creating a applying new migration 
 
 + Migrations are django's way of propagating changes we make to our models (adding a field, deleting a model, etc.) into our database schema. The command to create a new migration is 
 
@@ -246,7 +257,8 @@ in order to create a table in the database we have to apply migration:
 
 after applying the migration a new table is then created inside the database named after our model class, for me it will be named countries_countries
 
-Creating a serializer class
+<a name="11"></a>
+## Creating a serializer class
 
 What are serializers? 
 
@@ -268,7 +280,8 @@ In the countries, we create a Python file called serializers.py which contains:
             fields = ('id', 'name', 'capital')
 
 
-Starting Development Server
+<a name="12"></a>
+## Starting and stopping a Development Server
 
 Django comes pre-installed with a lightweight web server which is written in Python enabling us to test our project during the development. 
 
@@ -283,7 +296,8 @@ SOME note:
 + that the development web server should not be used for production since it is meant to be used for development ONLY!
 + The development web server has automatic reloading which automatically restarts the web server when it detects changes in our code so we don't need to restart the server.
 
-Creating a SuperUser account
+<a name="13"></a>
+## Creating a SuperUser account
 
 + Every Django application has a public interface that users can interact with, it also has an administrative interface that the administrative of the application can interact with, in order to interact or access the administrative page of a django application we need to have a SuperUser account. To access the administrative page of any django application in the address bar after the port number we do a slash and then a word admin like
 
