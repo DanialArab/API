@@ -495,3 +495,6 @@ Postman is an API platform for developers to design, build, test, and iterate th
 When we are building APIs, we want our models to provide 4 basic types of functionalities. The model must be able to Create, Read, Update, and Delete (CRUD) resources. 
 
 Before interacting with Postman to test the API, I need to make sure that my development server is up and running. 
+
+![](https://github.com/DanialArab/images/blob/main/API/postman_testing_API.png)
+
