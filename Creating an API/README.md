@@ -264,6 +264,6 @@ Starting Development Server
 
 Django comes pre-installed with a lightweight web server which is written in Python enabling us to test our project during the development. 
 
-    python3 manage.py runserver 
+    python3 manage.py runserver
 
 
