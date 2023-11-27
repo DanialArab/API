@@ -6,18 +6,21 @@ Here are my notes from the course
 
 The structure of my notes is as follows:
 
-1. [Installations](#1)
-2. [Craeting a new django project](#2)
-3. [Creating a new django app and CORS configuration](#3)
-4. [Registering applications with django](#4)
-5. [Setting up MySQL Database server to be able to interact with django application](#5)
-6. [Creating a model and serializer](#6)
+1. [Getting started](#1)
+  1. [Installations](#2)
+2. [Craeting a new django project](#3)
+  1. [Creating a new django app, CORS configuration, and registering applications with django](#4)
+6. [Setting up MySQL Database server to be able to interact with django application](#5)
+7. [Creating a model and serializer](#6)
   
 
 
 ![](https://github.com/DanialArab/images/blob/main/API/course%20detail.png)
 
 <a name="1"></a>
+## Getting started
+
+<a name="2"></a>
 ## Installations
 
     conda create --name api
@@ -48,8 +51,8 @@ to see the version of the installed djangorestframework:
     Requires: django, pytz
     Required-by: 
 
-<a name="2"></a>
-## Craeting a new django project
+<a name="3"></a>
+## Creating a new django project
 
     django-admin startproject worldCountries . 
 
@@ -63,8 +66,8 @@ some notes on the files in my project directory:
 6. manage.py ----> is a command line utility that lets me interact with the django project in various ways 
 
 
-<a name="3"></a>
-## Creating a new django app and CORS configuration:
+<a name="4"></a>
+## Creating a new django app, CORS configuration, and registering applications with django
 
     python3 manage.py startapp countries 
 
@@ -87,8 +90,6 @@ if we want our application to be accessible to every url i can set:
 
     CORS_ORIGIN_ALLOW_ALL = True 
 
-<a name="4"></a>
-## Registering applications with django 
 
 in the settings.py file and in the INSTALLED_APPS, I add the followings:
 
@@ -127,7 +128,8 @@ A middleware is a framework of hooks into django's request/response processing. 
           }
       }
 
-Applying the initial migration
+<a name="6"></a>
+## Applying the initial migration
 
 +  Migrations are django ways to propagate changes we make in our models into our database schema
 +  the changes may include adding a field, deleting a model, etc.
@@ -296,4 +298,6 @@ where gives me a couple of prompts like creating a username, entering an email, 
     Password (again):
     Superuser created successfully.
 
+
+Creating Views and URLs
 
